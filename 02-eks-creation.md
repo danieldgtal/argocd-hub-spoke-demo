@@ -1,5 +1,5 @@
 # EKS Setup
-
+## This setup creates a cluster on AWS using default parameters
 ## EKS Clusters Creation
 
 eksctl create cluster --name hub-cluster --region us-west-1
