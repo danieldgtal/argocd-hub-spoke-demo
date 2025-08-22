@@ -4,4 +4,5 @@
 ## change argocd api server service from clusterip to nodeport
 ### k edit svc argocd-server -n argocd
 
-## port forward the N
+## Login into the argocd UI
+### edit the argocd-initial-admin-secret secret and decode the password using base64
